@@ -82,7 +82,7 @@ class Yuriko_Assets {
 			// This wraps around the style or script tag
 			$wrapper = Arr::get($asset, 5, array('', ''));
 
-			( ! $attributes) AND $attributes = array();
+			( ! $attributes) AND $attributes = array();	
 			( ! $wrapper) AND $wrapper = array('', '');
 
 			if ($asset[0] == 'script')
